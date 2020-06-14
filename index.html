@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/javascript.js"></script>
+		<meta charset="utf-8"> 
+		
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<![endif]-->
+
+		<title>Online Marketplace</title>
+	</head>
+	<body>
+		<h1>INFOSYS 280 Assignment #2: Online Supermarket Page</h1>
+		<form>
+			<input type="text" id="searchbox" size= "40">
+			<button type="button" id="search">Search</button>
+		</form>
+		<h2>Search results:</h2>
+		<label for = "sort">Sort by:</label>
+			<select name = "sort" id = "sort">
+				<option value="Default">Default</option>
+				<option value="Price">Price</option>
+			</select>
+		<ul id = "products"></ul>
+		<h2 id = "cartHeader">Your shopping cart:</h2>
+		<ul id = "cart"></ul>
+		<h2>Total:</h2>
+		<div id = "total"></div>
+	</body>
+</html>	
